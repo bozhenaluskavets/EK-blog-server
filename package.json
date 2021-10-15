@@ -9,8 +9,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "json-server db.json -m ./node_modules/json-server-auth",
-    "try": "json-server db.json -m ./node_modules/json-server-auth"
+    "start": "node server.js"
   },
   "devDependencies": {
     "json-server": "^0.16.3",
