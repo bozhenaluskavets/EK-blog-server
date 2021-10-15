@@ -1,0 +1,19 @@
+{
+  "name": "lektorium-json-server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Kostya Kulyk",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "json-server db.json -m ./node_modules/json-server-auth",
+    "try": "json-server db.json -m ./node_modules/json-server-auth"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.1.0"
+  }
+}
