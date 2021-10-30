@@ -9,7 +9,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "git push heroku master"
   },
   "dependencies": {
     "json-server": "^0.16.3",
