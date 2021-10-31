@@ -9,7 +9,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "json-server-auth db.json",
+    "start": "node try.js",
     "deploy": "git push heroku master"
   },
   "dependencies": {
