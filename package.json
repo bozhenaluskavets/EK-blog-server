@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start0": "node server.js",
-    "start": "node try2.js",
+    "start": "node try2.js db.json",
     "deploy": "git push heroku master"
   },
   "dependencies": {
