@@ -18,12 +18,12 @@ const argv = yargs
     port: {
       alias: 'p',
       description: 'Set port',
-      default: process.env.PORT ?? 3000,
+      default: process.env.PORT ?? 3040,
     },
     host: {
       alias: 'H',
       description: 'Set host',
-      default: process.env.HOST ?? 'localhost',
+      default: process.env.HOST ?? '0.0.0.0',
     },
     watch: { alias: 'w', description: 'Watch file(s)' },
     routes: { alias: 'r', description: 'Path to routes file' },
