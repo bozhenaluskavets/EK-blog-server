@@ -51,6 +51,14 @@
       "lastname": "Monge",
       "age": 32,
       "id": 2
+    },
+    {
+      "email": "olivier4@mail.com",
+      "password": "$2a$10$IgGW87iCxE95N0vOBfLySObxJhOBOBASX6W8wnDU.ii9sYA5x9ywO",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 3
     }
   ],
   "profile": {

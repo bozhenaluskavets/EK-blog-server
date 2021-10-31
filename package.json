@@ -9,7 +9,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node try.js",
+    "start0": "node server.js",
+    "start": "node try2.js",
     "deploy": "git push heroku master"
   },
   "dependencies": {

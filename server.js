@@ -17,23 +17,23 @@
 // server.listen(port);
 
 const jsonServer = require('json-server');
-const authServer = require('json-server-auth');
+const authServer = require('json-server-auth')('db.json');
 
 // auth.router('db.json');
 // console.log('???', authServer.defaults());
 
 const server = jsonServer.create();
-// server.use(authServer);
+
 // server.use(authServer[0]);
 // server.use(authServer[1]);
-const middlewares2 = jsonServer.defaults();
+// const middlewares2 = jsonServer.defaults();
 const router = jsonServer.router('db.json');
 
 const middlewares = jsonServer.defaults();
 
 const port = process.env.PORT || 5000;
 
+server.use(authServer);
 server.use(middlewares);
-server.use(middlewares2);
 server.use(router);
 server.listen(port);
