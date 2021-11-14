@@ -24,6 +24,14 @@
       "userId": 1,
       "createdAt": "2021-09-29T14:01:49.563Z",
       "updatedAt": "2021-09-29T14:01:49.563Z"
+    },
+    {
+      "title": "json-server",
+      "body": "body2",
+      "userId": 1,
+      "createdAt": "2021-09-29T14:01:49.563Z",
+      "updatedAt": "2021-09-29T14:01:49.563Z",
+      "id": 3
     }
   ],
   "comments": [
@@ -33,6 +41,37 @@
       "createdAt": "2021-09-29T14:01:49.563Z",
       "updatedAt": "2021-09-29T14:01:49.563Z",
       "postId": 1
+    },
+    {
+      "body": "some comment2",
+      "createdAt": "2021-09-20T14:01:49.563Z",
+      "updatedAt": "2021-09-29T14:01:49.563Z",
+      "postId": 1,
+      "id": 4
+    },
+    {
+      "body": "some comment2",
+      "createdAt": "2021-09-20T14:01:49.563Z",
+      "updatedAt": "2021-09-29T14:01:49.563Z",
+      "postId": 1,
+      "id": 5
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "some announcement title",
+      "body": "some announcement message ",
+      "author": "typicode",
+      "createdAt": "2021-09-29T14:01:49.563Z",
+      "updatedAt": "2021-09-29T14:01:49.563Z"
+    },
+    {
+      "title": "some announcement title",
+      "body": "some announcement message ",
+      "createdAt": "2021-09-29T14:01:49.563Z",
+      "updatedAt": "2021-09-29T14:01:49.563Z",
+      "id": 2
     }
   ],
   "users": [
@@ -59,6 +98,38 @@
       "lastname": "Monge",
       "age": 32,
       "id": 3
+    },
+    {
+      "email": "olivier15@mail.com",
+      "password": "$2a$10$QY5zlgFzW/GX4IDGVnDhPut7gTNcjZFw9pmigzpcP3MI6Fgb6JY3i",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 4
+    },
+    {
+      "email": "olivier6@mail.com",
+      "password": "$2a$10$nF7qQRyggFvSBT7Qy8Yy8OTdaWGmAZYJWzvt2jYio95KfVyqx2rd.",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 5
+    },
+    {
+      "email": "olivier51@mail.com",
+      "password": "$2a$10$W/jwMKZ9ozLjGoVBQ6Z1huY/L2IjTpxznydbiJ79VyqZrCzqMkjPW",
+      "firstname": "Olivier2",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 6
+    },
+    {
+      "email": "olivier52@mail.com",
+      "password": "$2a$10$IEUNHS3IXW8/RyxwvjjWue0FL7v5yHx3sGRFn6Gb.R8kmNIdtbfCm",
+      "firstname": "Olivier2",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 7
     }
   ],
   "profile": {

@@ -96,7 +96,6 @@ if (argv.routes) {
     os_1.tmpdir(),
     `routes-from-${path_1.basename(process.cwd())}.json`
   );
-  console.log('PATH:', tmpFilepath);
   fs_1.writeFileSync(tmpFilepath, routes, 'utf8');
   argv.routes = tmpFilepath;
 }
