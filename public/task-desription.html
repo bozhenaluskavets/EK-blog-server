@@ -1,0 +1,270 @@
+<h1>Backend details and setup</h1>
+
+<p>Backend is implemented using:</p>
+
+<ol><li>json-server https://www.npmjs.com/package/json-server</li><li>json-server-auth https://www.npmjs.com/package/json-server-auth</li></ol>
+
+<p>Backend is deployed on heroku https://www.heroku.com/home
+But you can run it locally as well, just run:</p>
+
+<ol><li><code>npm install</code> to install dependencies</li><li><code>npm start</code> to start server</li></ol>
+
+<p>Localy server is available under http://localhost:3000/
+Server on heroku: http://zapier-json-server.herokuapp.com/</p>
+
+<h1>Requirements for React Test Project</h1>
+
+<h2>Prerequirements</h2>
+
+<p>Successfully complete react course on udemy (or any other react course).</p>
+
+<h2>Requirements</h2>
+
+<p>Create a react application where users can write/read posts and comment them.
+Also users should see recent announcements.
+UI should be nice and scalable, so users with big and small screen can enjoy your UI.</p>
+
+<h3>Detailed technical requirements</h3>
+
+<h4>Main concepts</h4>
+
+<p>All users should be able to see all articles, but only authorized users can write and comment articles.
+Users should be able to edit/delete their own articles and comments.</p>
+
+<p>All users should be able to see all announcements.
+Only authorizes users can write/edit/delete announcements.</p>
+
+<h4>User authorization</h4>
+
+<p>User should be able to access web application main page as a incognito (without authentication)
+But user should be authorized in order to:</p>
+
+<ol><li>Create/Edit/Delete posts</li><li>Create/Edit/Delete post comments</li><li>Create/Edit/Delete announcements</li><li>Edit User Profile</li></ol>
+
+<p>Please use following endpoints for authorization:</p>
+
+<p>Register new user</p>
+
+<p><code>
+POST /register
+{
+  &quot;email&quot;: &quot;olivier@mail.com&quot;,
+  &quot;password&quot;: &quot;bestPassw0rd&quot;,
+  &quot;firstname&quot;: &quot;Olivier&quot;,
+  &quot;lastname&quot;: &quot;Monge&quot;,
+  &quot;age&quot;: 32,
+  &quot;avatar&quot;: &quot;https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png&quot;
+}
+</code></p>
+
+<p>All fields are mandatory.
+On user registration - user should enter all necessary fields:</p>
+
+<ul><li>email</li><li>password with confirmation</li><li>first and last name</li><li>age</li><li>avatar (user should select avatar from predefined list. Pelase define avatar list by yourself)</li></ul>
+
+<h4>User login/logout</h4>
+
+<p>User should be able to login/logout
+On a right corner - &quot;Login&quot; link should be present it user is not logged in.
+if user is logged in - two links should be present on a top right corner:</p>
+
+<ul><li>&lt;user&gt; link whick contains user first and lat name and leads to user page</li><li>Logout - link with log user out.</li></ul>
+
+<p>user page should contain user data in read only mode.</p>
+
+<p>Login request:</p>
+
+<p><code>
+POST /login
+{
+  &quot;email&quot;: &quot;olivier@mail.com&quot;,
+  &quot;password&quot;: &quot;bestPassw0rd&quot;
+}
+</code></p>
+
+<p>Login and Register response contain JWT access token which will be expired in one hour.
+Token should be stored in local storage for further usage.</p>
+
+<p>All generated users password is &quot;bestPassw0rd&quot;.</p>
+
+<p>Each request to server should contain Authorization header in order to provide ability to load data.
+After login each request shold cointan following header:</p>
+
+<p>Authorization: Bearer &lt;user access token&gt;</p>
+
+<p>user acess token is provided on login, for instance:</p>
+
+<p><code>
+POST /login
+{
+  &quot;email&quot;: &quot;olivier@mail.com&quot;,
+  &quot;password&quot;: &quot;bestPassw0rd&quot;
+}
+</code></p>
+
+<p>will provide response:</p>
+
+<p><code>
+{
+    &quot;accessToken&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXIyQG1haWwuY29tIiwiaWF0IjoxNjM2OTA4MDcxLCJleHAiOjE2MzY5MTE2NzEsInN1YiI6IjEifQ.RsLgwvCOgaV0Wow7p-6-5ZimGZNpWR-Bh8jCOrnHRRI&quot;,
+    &quot;user&quot;: {
+        &quot;email&quot;: &quot;olivier2@mail.com&quot;,
+        &quot;firstname&quot;: &quot;Olivier&quot;,
+        &quot;lastname&quot;: &quot;Monge&quot;,
+        &quot;age&quot;: 32,
+        &quot;id&quot;: 1
+    }
+}
+</code></p>
+
+<p>On logout simply clean token from local storage. That should be indication whether user is looged in or not.
+User data should be stored in local storage as well (we will need it).</p>
+
+<h4>Posts</h4>
+
+<h5>Create Post</h5>
+
+<p><code>
+POST /664/posts
+  {
+    &quot;title&quot;: &quot;Post Title&quot;,
+    &quot;body&quot;: &quot;Post Body&quot;,
+    &quot;userId&quot;: 1,
+    &quot;createdAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;,
+    &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;
+  }
+</code></p>
+
+<p>Here userId - represents logged in user Id.
+Only authorized users can create posts.</p>
+
+<h5>Get Posts</h5>
+
+<p><code>
+GET /664/posts
+</code></p>
+
+<p>To paginate posts please use following params:
+_page=&lt;number&gt;
+_limit=&lt;number&gt;</p>
+
+<p>example /posts?_page=7&amp;_limit=20 - which represents 7th page with up to 20 posts.</p>
+
+<h5>Update Post</h5>
+
+<p><code></code>`
+PATCH /664/post/2</p>
+
+<p>  {
+    &quot;title&quot;: &quot;Post Title Updated&quot;,
+    &quot;body&quot;: &quot;Post Body Updated&quot;,
+    &quot;userId&quot;: 1,
+    &quot;createdAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;,
+    &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;
+  }
+<code></code>`</p>
+
+<p>where 2 - is post id.
+user should be able to edit only its own posts</p>
+
+<h5>Delete Post</h5>
+
+<p><code>
+DELETE /664/post/2
+</code></p>
+
+<p>where 2 - is post id.
+user should be able to delete only its own posts</p>
+
+<h4>Post Comments</h4>
+
+<h5>Get Post Comments</h5>
+
+<p><code>
+GET /comments?postId=2&amp;_sort=createdAt
+</code></p>
+
+<p>where 2 is a post id.
+all comments should be available for all users, even not authenticated.</p>
+
+<h5>Create Post Comment</h5>
+
+<p><code>
+POST /664/comments
+{
+        &quot;body&quot;: &quot;some comment&quot;,
+        &quot;createdAt&quot;: &quot;2021-09-20T14:01:49.563Z&quot;,
+        &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;,
+        &quot;postId&quot;: 1
+}
+</code></p>
+
+<h5>Update Post Comment</h5>
+
+<p><code>
+PATCH /664/comments/2
+    {
+        &quot;body&quot;: &quot;some comment3.2&quot;,
+        &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;
+    }
+</code></p>
+
+<p>User can update only its own comments.
+User shold be authentiacted in order to udpate comment.</p>
+
+<p>Please pay attention that comment is updated by id specified in URL + on update we specify only fields we want to update.</p>
+
+<h5>Delete Post Comment</h5>
+
+<p><code>
+DELETE /664/comments/2
+</code></p>
+
+<h4>Announcements</h4>
+
+<h4>Get Announcements</h4>
+
+<p><code>
+GET /664/announcements?sort=createdAt&amp;limit=10
+</code></p>
+
+<p>here we load last 10 announcements sorted by date</p>
+
+<h5>Create Announcement</h5>
+
+<p><code>
+POST /664/announcements
+    {
+        &quot;title&quot;: &quot;some announcement title&quot;,
+        &quot;body&quot;: &quot;some announcement message &quot;,
+        &quot;userId&quot;: 1,
+        &quot;createdAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;,
+        &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;
+    }
+</code></p>
+
+<p>where 1 - is a authenticated user id.
+User should be authenticated in order to create announcement</p>
+
+<h5>Update Announcement</h5>
+
+<p><code>
+POST /664/announcements/2
+    {
+        &quot;title&quot;: &quot;updated announcement title&quot;,
+        &quot;body&quot;: &quot;updated announcement message &quot;,
+        &quot;updatedAt&quot;: &quot;2021-09-29T14:01:49.563Z&quot;
+    }
+</code></p>
+
+<p>User should be authenticated in order to update announcement.
+User can update only its own announcement.</p>
+
+<h5>Delete Announcement</h5>
+
+<p><code>
+DELETE /664/announcements/2
+</code></p>
+
+<p>User should be authenticated in order to update announcement.
+User can update only its own announcement.</p>

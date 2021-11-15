@@ -10,12 +10,14 @@
   },
   "scripts": {
     "start": "node start-server db.json",
-    "deploy": "git push heroku master"
+    "markdown-readme": "node readme-markdown.js",
+    "deploy": "npm run markdown-readme &&  git push heroku master"
   },
   "dependencies": {
     "fake-data-generator": "^0.4.3",
     "faker": "^5.5.3",
     "json-server": "^0.16.3",
-    "json-server-auth": "^2.1.0"
+    "json-server-auth": "^2.1.0",
+    "markdown": "^0.5.0"
   }
 }

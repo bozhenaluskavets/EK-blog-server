@@ -11,8 +11,8 @@ But you can run it locally as well, just run:
 1. `npm install` to install dependencies
 2. `npm start` to start server
 
-Localy server is available under http://localhost:3000/
-Server on heroku: http://zapier-json-server.herokuapp.com/
+Localy server is available under http://localhost:3040/
+Server on heroku: https://ekreative-json-server.herokuapp.com/
 
 # Requirements for React Test Project
 
