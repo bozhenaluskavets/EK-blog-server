@@ -14,8 +14,6 @@ But you can run it locally as well, just run:
 Localy server is available under http://localhost:3000/
 Server on heroku: http://zapier-json-server.herokuapp.com/
 
-:
-
 # Requirements for React Test Project
 
 ## Prerequirements
@@ -96,6 +94,8 @@ POST /login
 
 Login and Register response contain JWT access token which will be expired in one hour.
 Token should be stored in local storage for further usage.
+
+All generated users password is "bestPassw0rd".
 
 Each request to server should contain Authorization header in order to provide ability to load data.
 After login each request shold cointan following header:
