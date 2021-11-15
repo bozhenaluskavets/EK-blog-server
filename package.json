@@ -9,8 +9,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start0": "node server.js",
-    "start": "node try2.js db.json",
+    "start": "node start-server db.json",
     "deploy": "git push heroku master"
   },
   "dependencies": {
