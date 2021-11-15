@@ -6,21 +6,6 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-    <script src="lib/markdown.js"></script>
-    <script>
-      function Editor(input, preview) {
-        this.update = function () {
-          preview.innerHTML = markdown.toHTML(input.value);
-        };
-        input.editor = this;
-        this.update();
-      }
-      var $ = function (id) {
-        return document.getElementById(id);
-      };
-      new Editor($('text-input'), $('preview'));
-    </script>
-
     <link rel="stylesheet" href="style.css" />
 
     <title>JSON Server</title>
@@ -60,6 +45,11 @@
           ✧*｡٩(ˊᗜˋ*)و✧*｡
         </p>
 
+        <p>
+          IMPORTANT: If server receives no web traffic in a 30-minute period, it
+          will sleep, and all backend data will be reset to its initial state.
+        </p>
+
         <p id="preview"></p>
 
         <div id="resources"></div>
@@ -74,12 +64,12 @@
           <code>OPTIONS</code>
         </p>
 
-        <div id="custom-routes"></div>
+        <!-- <div id="custom-routes"></div> -->
       </div>
     </main>
 
     <footer>
-      <div class="container"></div>
+      <!-- <div class="container"></div> -->
     </footer>
 
     <script src="script.js"></script>
