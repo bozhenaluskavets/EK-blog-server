@@ -181,11 +181,13 @@ user should be able to delete only its own posts</p>
 <h5>Get Post Comments</h5>
 
 <p><code>
-GET /comments?postId=2&amp;_sort=createdAt
+GET /comments?postId=2&amp;_sort=createdAt&amp;_order=asc
 </code></p>
 
 <p>where 2 is a post id.
-all comments should be available for all users, even not authenticated.</p>
+all comments should be available for all users, even not authenticated.
+_sort param specifies sorting by field. createdAt as example
+_order param specifies sorting order: &quot;asc&quot; or &quot;desc&quot;</p>
 
 <h5>Create Post Comment</h5>
 
