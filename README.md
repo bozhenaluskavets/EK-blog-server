@@ -191,11 +191,13 @@ user should be able to delete only its own posts
 ##### Get Post Comments
 
 ```
-GET /comments?postId=2&_sort=createdAt
+GET /comments?postId=2&_sort=createdAt&_order=asc
 ```
 
 where 2 is a post id.
 all comments should be available for all users, even not authenticated.
+\_sort param specifies sorting by field. createdAt as example
+\_order param specifies sorting order: "asc" or "desc"
 
 ##### Create Post Comment
 
