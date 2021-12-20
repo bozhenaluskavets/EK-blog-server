@@ -163,7 +163,7 @@ example /posts?\_page=7&\_limit=20 - which represents 7th page with up to 20 pos
 ##### Update Post
 
 ```
-PATCH /664/post/2
+PATCH /664/posts/2
 
   {
     "title": "Post Title Updated",
@@ -180,7 +180,7 @@ user should be able to edit only its own posts
 ##### Delete Post
 
 ```
-DELETE /664/post/2
+DELETE /664/posts/2
 ```
 
 where 2 - is post id.
