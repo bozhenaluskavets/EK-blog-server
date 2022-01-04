@@ -176,6 +176,47 @@ DELETE /664/posts/2
 <p>where 2 - is post id.
 user should be able to delete only its own posts</p>
 
+<h5>Get Posts with related users</h5>
+
+<p>by default when we receive list of posts - it contain only userId,
+for instance:</p>
+
+<p>{
+&quot;id&quot;: 98,
+&quot;title&quot;: &quot;Voluptas tenetur molestiae voluptatem ut iste inventore.&quot;,
+&quot;body&quot;: &quot;some text&quot;,
+&quot;userId&quot;: 11,
+&quot;createdAt&quot;: &quot;2021-10-01T18:50:20.818Z&quot;,
+&quot;updatedAt&quot;: &quot;2021-11-14T19:50:20.818Z&quot;
+},</p>
+
+<p>but we whould need to get posts with a user object. to do it - please use following url:</p>
+
+<p><code>
+GET /posts?_expand=user
+</code></p>
+
+<p>in this case you receive:</p>
+
+<p>{
+&quot;id&quot;: 98,
+&quot;title&quot;: &quot;Voluptas tenetur molestiae voluptatem ut iste inventore.&quot;,
+&quot;body&quot;: &quot;some text&quot;,
+&quot;userId&quot;: 11,
+&quot;createdAt&quot;: &quot;2021-10-01T18:50:20.818Z&quot;,
+&quot;updatedAt&quot;: &quot;2021-11-14T19:50:20.818Z&quot;,
+&quot;user&quot;: {
+&quot;id&quot;: 11,
+&quot;email&quot;: &quot;melba.purdy40@gmail.com&quot;,
+&quot;password&quot;: &quot;$2a$10$PjxK1XEgkR/1htAcHR.n3eyhMsxF7ohTerKvpzjrMGiXELE9O.GnO&quot;,
+&quot;firstname&quot;: &quot;Melba&quot;,
+&quot;lastname&quot;: &quot;Purdy&quot;,
+&quot;age&quot;: 18
+}
+},</p>
+
+<p>for more informartion please refer json-server documentation</p>
+
 <h4>Post Comments</h4>
 
 <h5>Get Post Comments</h5>
