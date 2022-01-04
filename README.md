@@ -186,6 +186,47 @@ DELETE /664/posts/2
 where 2 - is post id.
 user should be able to delete only its own posts
 
+##### Get Posts with related users
+
+by default when we receive list of posts - it contain only userId,
+for instance:
+
+{
+"id": 98,
+"title": "Voluptas tenetur molestiae voluptatem ut iste inventore.",
+"body": "some text",
+"userId": 11,
+"createdAt": "2021-10-01T18:50:20.818Z",
+"updatedAt": "2021-11-14T19:50:20.818Z"
+},
+
+but we whould need to get posts with a user object. to do it - please use following url:
+
+```
+GET /posts?_expand=user
+```
+
+in this case you receive:
+
+{
+"id": 98,
+"title": "Voluptas tenetur molestiae voluptatem ut iste inventore.",
+"body": "some text",
+"userId": 11,
+"createdAt": "2021-10-01T18:50:20.818Z",
+"updatedAt": "2021-11-14T19:50:20.818Z",
+"user": {
+"id": 11,
+"email": "melba.purdy40@gmail.com",
+"password": "$2a$10$PjxK1XEgkR/1htAcHR.n3eyhMsxF7ohTerKvpzjrMGiXELE9O.GnO",
+"firstname": "Melba",
+"lastname": "Purdy",
+"age": 18
+}
+},
+
+for more informartion please refer json-server documentation
+
 #### Post Comments
 
 ##### Get Post Comments
