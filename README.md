@@ -278,7 +278,7 @@ DELETE /664/comments/2
 #### Get Announcements
 
 ```
-GET /664/announcements?sort=createdAt&limit=10
+GET /664/announcements?_sort=created.At_order=desc&limit=10
 ```
 
 here we load last 10 announcements sorted by date
