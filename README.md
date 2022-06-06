@@ -80,7 +80,8 @@ if user is logged in - two links should be present on a top right corner:
 - <user> link whick contains user first and lat name and leads to user page
 - Logout - link with log user out.
 
-user page should contain user data in read only mode.
+User Profile Page should contain user data like: user name, password, avatar, email, age, etc. Please add ability to update this data. And ability to select another avatar.
+User should be able to update only its own profile page.
 
 Login request:
 
