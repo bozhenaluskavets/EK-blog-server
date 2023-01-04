@@ -23,7 +23,7 @@ const argv = yargs
     host: {
       alias: 'H',
       description: 'Set host',
-      default: process.env.HOST ?? '0.0.0.0',
+      default: process.env.HOST ?? '127.0.0.1',
     },
     watch: { alias: 'w', description: 'Watch file(s)' },
     routes: { alias: 'r', description: 'Path to routes file' },
