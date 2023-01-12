@@ -3203,7 +3203,6 @@
       "updatedAt": "2021-11-14T19:53:33.572Z"
     }
   ],
-
   "announcements": [
     {
       "id": 2,
@@ -3574,6 +3573,259 @@
       "firstname": "Angela",
       "lastname": "Schowalter",
       "age": 33
+    },
+    {
+      "email": "wjnkertver@gmail.com",
+      "password": "$2a$10$eRsJ9s0Zho3pxZ1HnTGkZ.G0CONFJlLBUHfJF7.Zv2f/CTrm8p/mK",
+      "passwordConfirm": "wjnkertver@gmail.com",
+      "firstName": "wjnkertver@gmail.com",
+      "lastName": "wjnkertver@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 23
+    },
+    {
+      "email": "firstname@gmail.com",
+      "password": "$2a$10$NXmTftcZ8sbiugRMWLkDYOOSDxwQiHNVonPysuJ3ZWk3wjD.ZjK0y",
+      "passwordConfirm": "firstname@gmail.com",
+      "firstname": "firstname@gmail.com",
+      "lastname": "firstname@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 24
+    },
+    {
+      "email": "wergucrehvnchwer@gmail.com",
+      "password": "$2a$10$yfkMss2Bq7FN/ZVPdmSYD.pHw7gPHsg7WyUCrDM2yNH0EBm2qTl0y",
+      "passwordConfirm": "wergucrehvnchwer@gmail.com",
+      "firstname": "wergucrehvnchwer@gmail.com",
+      "lastname": "wergucrehvnchwer@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 25
+    },
+    {
+      "email": "srghbnsegh@gmail.com",
+      "password": "$2a$10$oQtbr8X6o7PGutJXon4SheNA0XtyTFob..kA1GHYRyM195kTCLknW",
+      "passwordConfirm": "srghbnsegh@gmail.com",
+      "firstname": "srghbnsegh@gmail.com",
+      "lastname": "srghbnsegh@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 26
+    },
+    {
+      "email": "wlvwlk45mkm@gmail.com",
+      "password": "$2a$10$1DGbFp4u9Z.hOlHJkhiYbOyvcPu7mqelBIAfcydqaw7gAGV8y.1uC",
+      "passwordConfirm": "wlvwlk45mkm@gmail.com",
+      "firstname": "wlvwlk45mkm@gmail.com",
+      "lastname": "wlvwlk45mkm@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 27
+    },
+    {
+      "email": "wel5vklkmw45@gmail.com",
+      "password": "$2a$10$qLQlQREMq0nLHdo1Mexsh.Kkw4zhz0PnF/DCo/nqA6itpTY8WqDge",
+      "passwordConfirm": "wel5vklkmw45@gmail.com",
+      "firstname": "wel5vklkmw45@gmail.com",
+      "lastname": "wel5vklkmw45@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 28
+    },
+    {
+      "email": "fghfghfgfgh@gmail.com",
+      "password": "$2a$10$znGfcrf3sA77Kycqdj80p.juFLvCtzSXVtv/H5ghX/YmYGn5aTtgK",
+      "passwordConfirm": "fghfghfgfgh@gmail.com",
+      "firstname": "fghfghfgfgh@gmail.com",
+      "lastname": "fghfghfgfgh@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 29
+    },
+    {
+      "email": "gjnejrgnjenrjgnejrngjn@gmail.com",
+      "password": "$2a$10$dujGmURtylvnzcgkRj1QPOh0FMxDOpFTFIECUwZbalUn71GAiHCki",
+      "passwordConfirm": "gjnejrgnjenrjgnejrngjn@gmail.com",
+      "firstname": "gjnejrgnjenrjgnejrngjn@gmail.com",
+      "lastname": "gjnejrgnjenrjgnejrngjn@gmail.com",
+      "age": "44",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 30
+    },
+    {
+      "email": "bogdan@gmail.com",
+      "password": "$2a$10$tjZZay458BqAxmMdcgJKfu.2vIuZjE61qdLf5rFPWAFAhPoV5.3BW",
+      "passwordConfirm": "Qwerty123",
+      "firstname": "bogdan",
+      "lastname": "zvozda",
+      "age": "25",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 31
+    },
+    {
+      "email": "seroitneoirvtniservt@gmail.com",
+      "password": "$2a$10$kIjRMxQUuzzR3MU58hl32OkSGw6MCv3EqaJ7MVq5ZUI0w.tcnVKja",
+      "passwordConfirm": "seroitneoirvtniservt@gmail.com",
+      "firstname": "seroitneoirvtniservt@gmail.com",
+      "lastname": "seroitneoirvtniservt@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 32
+    },
+    {
+      "email": "yhgvgv@gmail.com",
+      "password": "$2a$10$rB7LxtKTpcFpS0eDAaPTEupYKtJyo8C3wyg0Ct.hCnJi0rqrtriTy",
+      "passwordConfirm": " yhgvgv@gmail.com",
+      "firstname": " yhgvgv@gmail.com",
+      "lastname": " yhgvgv@gmail.com",
+      "age": "76",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 33
+    },
+    {
+      "email": "kytfytf@gmail.com",
+      "password": "$2a$10$W8jNsrkX2LbU.0giZ32aNO5aoHEUlJK9MmvDQTLVfQtusnJTVUKEK",
+      "passwordConfirm": "kytfytf@gmail.com",
+      "firstname": "kytfytf@gmail.com",
+      "lastname": "kytfytf@gmail.com",
+      "age": "55",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 34
+    },
+    {
+      "email": "uvuyvouyvo@gmail.com",
+      "password": "$2a$10$vv77isaaBM7l5V6/1VkUeebLiq9L1fV7mEBRXJO.IcHXG6P3.0bTq",
+      "passwordConfirm": "uvuyvouyvo@gmail.com",
+      "firstname": "uvuyvouyvo@gmail.com",
+      "lastname": "uvuyvouyvo@gmail.com",
+      "age": "53",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 35
+    },
+    {
+      "email": "kuknviennrh@gmail.com",
+      "password": "$2a$10$RE.mDklVPH90tO/FXmVM2.yNd7Lc3sN6L4Olx124pQIkBoDTBGmJa",
+      "passwordConfirm": "kuknviennrh@gmail.com",
+      "firstname": "kuknviennrh@gmail.com",
+      "lastname": "kuknviennrh@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 36
+    },
+    {
+      "email": "osrvnieuntvutn@gmail.com",
+      "password": "$2a$10$LZVawU1Wtto1VhffO3WF.eenSeNPZZ65mUzRsZJtiylB/DMw4XSB2",
+      "passwordConfirm": "osrvnieuntvutn@gmail.com",
+      "firstname": "osrvnieuntvutn@gmail.com",
+      "lastname": "osrvnieuntvutn@gmail.com",
+      "age": "45",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 37
+    },
+    {
+      "email": "bozhena@gmail.com",
+      "password": "$2a$10$hA9aD8dAdT8EYHRSbQaDguvAfdlO.HgU4XeysnSKsBsBaHPVV8XTu",
+      "passwordConfirm": "bozhena@gmail.com",
+      "firstname": "bozhena@gmail.com",
+      "lastname": "bozhena@gmail.com",
+      "age": "33",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 38
+    },
+    {
+      "email": "rrtrthrthrth@gmail.com",
+      "password": "$2a$10$rl3gUpZ2NUFgmuz6Vua.AeWtIaeG94kjMLXm7eLAMQflqBpY570i.",
+      "passwordConfirm": "rrtrthrthrth@gmail.com",
+      "firstname": "rrtrthrthrth@gmail.com",
+      "lastname": "rrtrthrthrth@gmail.com",
+      "age": "44",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 39
+    },
+    {
+      "email": "r6vujvruyjv@gmail.com",
+      "password": "$2a$10$OFc/PLb6RtSsT29yo/3InuBwIfOBzmQIAS9sncFwP3aVSk383sVd6",
+      "passwordConfirm": "r6vujvruyjv@gmail.com",
+      "firstname": "r6vujvruyjv@gmail.com",
+      "lastname": "r6vujvruyjv@gmail.com",
+      "age": "45",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 40
+    },
+    {
+      "email": "w4g45vt45@GMAIL.COM",
+      "password": "$2a$10$YvnfZm/gOirZEBkqL2MHPecpmXj58bK2XY/8KnD1WzcZ1RQ9ew.oi",
+      "passwordConfirm": "w4g45vt45@GMAIL.COM",
+      "firstname": "w4g45vt45@GMAIL.COM",
+      "lastname": "w4g45vt45@GMAIL.COM",
+      "age": "44",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 41
+    },
+    {
+      "email": "Qwerty123@gmail.com",
+      "password": "$2a$10$dIaeX0s2TREol2VSWsgOEeUws4lC0/zO54WVsnKswy2qFb.7VEg2y",
+      "firstname": "Qwerty123@gmail.com",
+      "lastname": "Qwerty123@gmail.com",
+      "age": "33",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 42
+    },
+    {
+      "email": "sdvsdsdvs@gmail.com",
+      "password": "$2a$10$5pIRRL0ueNv/OC53rlS6AeaNgI0vePBqwsKP/bSim4HRtBBFA4LDu",
+      "firstname": "sdvsdsdvs@gmail.com",
+      "lastname": "sdvsdsdvs@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 43
+    },
+    {
+      "email": "bogdawerwern@gmail.com",
+      "password": "$2a$10$8F3OzxpoGrRXUDCWTZos4u1aEcVzoxQiic0tggdP7VznIekQ2wsI6",
+      "firstname": "bogdawerwern@gmail.com",
+      "lastname": "bogdawerwern@gmail.com",
+      "age": "45",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 44
+    },
+    {
+      "email": "tyutyutyutyu@gmail.com",
+      "password": "$2a$10$MdYF9LwalzJxtuTHvjgxfeDVENnoTDf1hV.srFMlto1AcAClaVxXC",
+      "firstname": "tyutyutyutyu@gmail.com",
+      "lastname": "tyutyutyutyu@gmail.com",
+      "age": "45",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 45
+    },
+    {
+      "email": "xxfgfxfxfgxfg@gmail.com",
+      "password": "$2a$10$Myq0kMkmuum8kaN5D1rGsea3LEvTXgoNw3Uy54O41X7igZ8lH/mBq",
+      "firstname": "xxfgfxfxfgxfg@gmail",
+      "lastname": "xxfgfxfxfgxfg@gmail",
+      "age": "45",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 46
+    },
+    {
+      "email": "bozhena.luskavets@gmail.com",
+      "password": "$2a$10$jskWfIxdLTgVzMK6n1lWc.bfTl/eHSrxxBpAMWocnC9OEDDP2PY22",
+      "firstname": "Bozhena",
+      "lastname": "Luskavets",
+      "age": "17",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 47
+    },
+    {
+      "email": "bozhena123.luskavets@gmail.com",
+      "password": "$2a$10$UQvmnDf3b8KQnA.GD46p3OGzmPMCV5tdf4z4GmzdIhrPtqWsFox4S",
+      "firstname": "bozhena.luskavets@gmail.com",
+      "lastname": "bozhena.luskavets@gmail.com",
+      "age": "34",
+      "avatar": "https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png",
+      "id": 48
     }
   ]
 }
